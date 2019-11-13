@@ -3,8 +3,6 @@ const http = require('http')
 const path = require('path')
 const socketio = require('socket.io')
 const app = express()
-var processWindows = require("node-process-windows");
-var ks = require('node-key-sender');
 
 app.use('/', express.static(path.join(__dirname, 'public')))
 
